@@ -8,7 +8,7 @@ class OrderProcessorTest {
     @Test
     void shouldProcessOrderWithoutConcreteDatabase() {
 
-        Database fakeDatabase = new Database() {
+        DataBase fakeDatabase = new DataBase() {
             @Override
             public void saveOrder() {
             }

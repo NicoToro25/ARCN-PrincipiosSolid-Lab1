@@ -4,7 +4,7 @@ public class GoodExample {
 
     public static void main(String[] args) {
 
-        Database database = new MySQLDatabase();
+        DataBase database = new MySQLDataBase();
         OrderProcessor processor = new OrderProcessor(database);
 
         processor.processOrder();
